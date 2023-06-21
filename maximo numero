@@ -1,0 +1,11 @@
+fun encontrarMaximo(a: Int, b: Int): Int {
+    return if (a > b) a else b
+}
+
+fun testEncontrarMaximo() {
+    val result1 = encontrarMaximo(10, 5)
+    assert(result1 == 10) { "Se esperaba que el máximo entre 10 y 5 sea 10" }
+
+    val result2 = encontrarMaximo(3, 9)
+    assert(result2 == 9) { "Se esperaba que el máximo entre 3 y 9 sea 9" }
+}
