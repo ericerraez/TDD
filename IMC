@@ -5,5 +5,5 @@ fun calcularIMC(peso: Double, altura: Double): Double {
 
 fun testCalcularIMC() {
     val result = calcularIMC(70.0, 170.0)
-    assert(result == 24.22) { "El IMC calculado no coincide con el valor esperado" }
+    assert(result == 24.22) { "Failed" }
 }
