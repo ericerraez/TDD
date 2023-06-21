@@ -1,0 +1,8 @@
+fun sum(a: Int, b: Int): Int {
+    return a + b
+}
+
+fun testSum() {
+    val result = sum(2, 3)
+    assert(result == 5) { "La suma de 2 y 3 debería ser 5" }
+}
