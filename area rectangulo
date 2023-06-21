@@ -1,0 +1,12 @@
+fun calcularAreaRectangulo(base: Double, altura: Double): Double {
+    return base * altura
+}
+
+// Prueba
+fun testCalcularAreaRectangulo() {
+    val result = calcularAreaRectangulo(5.0, 8.0)
+    assert(result == 40.0) { "El área calculada no coincide con el valor esperado" }
+}fun main() {
+    val kotlin = "Test passed"
+    println(kotlin)
+}
