@@ -1,0 +1,11 @@
+fun validarEdad(edad: Int): Boolean {
+    return edad >= 18
+}
+
+fun testValidarEdad() {
+    val result1 = validarEdad(20)
+    assert(result1) { "Se esperaba que la edad 20 sea válida" }
+
+    val result2 = validarEdad(15)
+    assert(!result2) { "Se esperaba que la edad 15 sea inválida" }
+}
