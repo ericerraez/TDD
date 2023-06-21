@@ -1,0 +1,9 @@
+fun calcularIMC(peso: Double, altura: Double): Double {
+    val alturaMetros = altura / 100
+    return peso / (alturaMetros * alturaMetros)
+}
+
+fun testCalcularIMC() {
+    val result = calcularIMC(70.0, 170.0)
+    assert(result == 24.22) { "El IMC calculado no coincide con el valor esperado" }
+}
